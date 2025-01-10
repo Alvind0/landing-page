@@ -1,0 +1,198 @@
+@import url("https://fonts.googleapis.com/css2?family=Noto+Sans+JP:wght@100..900&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap");
+
+body {
+  font-family: "Roboto", "Noto Sans JP", serif;
+  min-height: 100vh;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  flex: auto;
+  flex-direction: column;
+  justify-content: space-between;
+  background-color: #fff;
+  overflow-x: hidden;
+}
+
+.header-wrapper,
+.hero-wrapper,
+.footer-wrapper {
+  display: flex;
+  flex-direction: column;
+  background-color: #1f2937;
+  width: 100%;
+}
+
+.information-wrapper,
+.cta-wrapper {
+  background-color: #fff;
+  width: 100%;
+}
+
+.cta-wrapper {
+  padding: 64px 0;
+}
+.testimonial-wrapper {
+  background-color: #e5e7eb;
+  width: 100%;
+}
+
+.header {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  flex: 1;
+}
+
+.logo {
+  font-size: 24px;
+  color: #f9faf8;
+}
+
+ul {
+  display: flex;
+  list-style: none;
+  gap: 12px;
+}
+
+a {
+  text-decoration: none;
+  color: #e5e7eb;
+  font-size: 18px;
+}
+
+.hero {
+  display: flex;
+  justify-content: center;
+  gap: 48px;
+  padding: 88px 0;
+}
+
+.hero-content {
+  display: flex;
+  flex: 0 1 auto;
+  flex-direction: column;
+  justify-content: flex-start;
+  font-size: 18px;
+  color: #e5e7eb;
+  padding: 0;
+  margin: 0;
+}
+
+h1.title {
+  font-size: 48px;
+  font-weight: 900;
+  color: #f9faf8;
+}
+
+.hero-content p {
+  width: 480px;
+  margin-top: -32px;
+}
+
+.input {
+  display: flex;
+  align-items: center;
+}
+
+input {
+  width: 72px;
+  padding: 4px;
+  background-color: #3882f6;
+  color: #fff;
+  font-size: 16px;
+  border: none;
+  border-radius: 12px;
+}
+
+.hero img {
+  width: 500px;
+  height: 250px;
+  background-color: #babcbe;
+}
+
+.content {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.content h2.title {
+  font-size: 36px;
+  font-weight: 900;
+  color: #1f2937;
+}
+
+.information {
+  display: flex;
+  justify-content: space-evenly;
+  gap: 64px;
+}
+
+.card {
+  display: flex;
+  flex-direction: column;
+  width: 250px;
+  text-align: center;
+}
+
+.card img {
+  width: 250px;
+  height: 250px;
+  background-color: white;
+  border: solid #3882f6;
+  border-radius: 25px;
+}
+
+.testimonial {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  flex: 0;
+  padding: 64px 0;
+  margin: 0 auto;
+  max-width: 1080px;
+}
+
+p.quote {
+  font-size: 36px;
+  font-style: italic;
+  color: #1f2937;
+}
+
+p.author {
+  margin-top: -48px;
+  font-weight: bold;
+  text-align: right;
+}
+
+.cta {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  background-color: #3882f6;
+  margin: 0 auto;
+  padding: 12px 0;
+  max-width: 1080px;
+  border-radius: 10px;
+}
+
+.cta input {
+  border: solid 2px white;
+}
+
+h3 {
+  font-size: 24px;
+  color: #f9faf8;
+}
+
+.message p {
+  margin-top: -24px;
+  color: #e5e7eb;
+}
+
+.footer-wrapper {
+  min-height: 64px;
+  justify-content: center;
+  align-items: center;
+  color: white;
+}
