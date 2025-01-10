@@ -62,6 +62,7 @@ a {
 
 .hero {
   display: flex;
+  flex-wrap: wrap-reverse;
   justify-content: center;
   gap: 48px;
   padding: 88px 0;
@@ -125,6 +126,7 @@ input {
 .information {
   display: flex;
   justify-content: space-evenly;
+  flex-wrap: wrap;
   gap: 64px;
 }
 
@@ -160,7 +162,8 @@ p.quote {
 }
 
 p.author {
-  margin-top: -48px;
+  margin-top: -38px;
+  font-size: 24px;
   font-weight: bold;
   text-align: right;
 }
