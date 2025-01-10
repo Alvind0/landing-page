@@ -86,7 +86,7 @@ h1.title {
 }
 
 .hero-content p {
-  width: 480px;
+  max-width: 600px;
   margin-top: -32px;
 }
 
