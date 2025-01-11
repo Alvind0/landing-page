@@ -1,5 +1,5 @@
 # odin-foundations-landing-page
-
+ [Live Preview](https://alvind0.github.io/landing-page/)
 # Credits
 
 - [Meriç Tunah](https://www.pexels.com/ja-jp/@merictuna/)
